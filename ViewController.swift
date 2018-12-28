@@ -24,7 +24,7 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Загрузка persicon в WKwebView и наделение правами на управление UI
-        let url = URL(string: "https://persicon.ru/photolab_demo/phlb.html")!
+        let url = URL(string: "https://persicon.ru/photolab_hd/phlb.html")!
         webView.uiDelegate = self
         webView.load(URLRequest(url: url))
     }
